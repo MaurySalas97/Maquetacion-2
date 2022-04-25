@@ -254,3 +254,12 @@ body{
     text-align: center;
     color: #00538C;
 }
+
+.card3:hover{
+    color: #00538C;
+    background-color: #efefef;
+}
+
+.card3.icon:hover {
+    color: red;
+}
