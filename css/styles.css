@@ -258,8 +258,13 @@ body{
 .card3:hover{
     color: #00538C;
     background-color: #efefef;
+    transition: all 0.5s;
+    border-radius: 3%;
+    
 }
 
-.card3.icon:hover {
-    color: red;
+.card3:hover .icon{
+    color: blueviolet;
+    transform:scale(1deg)    
+    ;
 }
